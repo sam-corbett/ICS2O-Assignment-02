@@ -32,30 +32,30 @@
       </header>
       <main class="mdl-layout__content">
         <h3>Please enter the following:</h3>
-        <!-- Simple Textfield -->
+<!-- Numeric Textfield -->
         <form action="#">
-          <p>First Name</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="first-name" />
-            <label class="mdl-textfield__label" for="first-name"
-              >Name here ...</label
-            >
-          </div>
-        </form>
-        <!-- Numeric Textfield -->
-        <form action="#">
-          <p>Age</p>
+          <p>Street Number:</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="age-entered"
+              id="street-number"
             />
-            <label class="mdl-textfield__label" for="age-entered"
-              >Age here ...</label
+            <label class="mdl-textfield__label" for="street-number"
+              >Type Street Number here ...</label
             >
             <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <!-- Simple Textfield -->
+        <form action="#">
+          <p>Street Name:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="street-name" />
+            <label class="mdl-textfield__label" for="street-name"
+              >Type Street Name here ...</label
+            >
           </div>
         </form>
         <!-- Raised button with ripple -->
