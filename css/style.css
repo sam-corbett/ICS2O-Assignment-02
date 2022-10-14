@@ -22,12 +22,12 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: lightgrey;
 }
 
 p {
-  color: darkblue;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 5pt;
 }

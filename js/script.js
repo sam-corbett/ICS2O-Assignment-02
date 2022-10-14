@@ -9,10 +9,9 @@
  */
 function enterClicked() {
   // input
-  const streetName = document.getElementById("street-name").value
   const streetNumber = parseInt(document.getElementById("street-number").value)
 
   // output
   document.getElementById("address").innerHTML =
-    "Your Address Is: " + streetNumber + " " + streetName + "."
+    "If you typed the number " + streetNumber + ". You typed the correct area of the circle!"
 }
