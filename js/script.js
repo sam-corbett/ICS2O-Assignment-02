@@ -13,5 +13,7 @@ function enterClicked() {
 
   // output
   document.getElementById("address").innerHTML =
-    "If you typed the number " + streetNumber + ". You typed the correct area of the circle!"
+    "If you typed the number " +
+    streetNumber +
+    ". You typed the correct area of the circle!"
 }
