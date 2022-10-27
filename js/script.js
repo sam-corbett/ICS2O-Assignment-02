@@ -9,11 +9,12 @@
  */
 function enterClicked() {
   // input
-  const streetNumber = parseInt(document.getElementById("street-number").value)
+  const radius = parseInt(document.getElementById("radius-of-circle").value)
 
-  // output
-  document.getElementById("address").innerHTML =
-    "If you typed the number " +
-    streetNumber +
-    ". You typed the correct area of the circle!"
+  //process
+  const area = 3.14159265359 * radius ** 2
+
+    // output
+    document.getElementById("area-of-circle").innerHTML =
+    "The Area Is Around " + area.toFixed(2)
 }
