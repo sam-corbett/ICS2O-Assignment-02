@@ -14,7 +14,7 @@ function enterClicked() {
   //process
   const area = 3.14159265359 * radius ** 2
 
-    // output
-    document.getElementById("area-of-circle").innerHTML =
+  // output
+  document.getElementById("area-of-circle").innerHTML =
     "The Area Is Around " + area.toFixed(2)
 }
